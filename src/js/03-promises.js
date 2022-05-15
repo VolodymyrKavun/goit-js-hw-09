@@ -6,7 +6,7 @@ const refs = {
   form: document.querySelector('.form'),
 };
 
-// Вішання слухача
+// Вішання слухача на елемент
 refs.form.addEventListener('submit', onSubmit);
 
 // Ф-я доступу до значень форми та перебору + (reset)
