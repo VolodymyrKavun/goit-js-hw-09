@@ -88,6 +88,7 @@ const startTimer = () => {
   }, 1000);
 
   refs.start.disabled = true;
+  refs.inputEl.disabled = true;
 };
 
 // Ініціалізація Ліби на Input
